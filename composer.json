@@ -1,0 +1,21 @@
+{
+    "name": "oyvindr/php-skeleton",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Øyvind",
+            "email": "roysland@gmail.com"
+        }
+    ],
+    "require": {
+        "pecee/simple-router": "^5.4",
+        "monolog/monolog": "^3.7",
+        "php-di/php-di": "^7.0",
+        "eftec/bladeone": "^4.16"
+    }
+}
